@@ -2,8 +2,9 @@ import os
 
 
 def friends_0():
-    filePath = '/Users/Corey/Documents/GitHub/bellevue-python/'
-    fileName = 'friends.txt'
+    filePath = '/Users/Corey/Documents/GitHub/bellevue-python/friends/'
+    print('Please create a filename')
+    fileName = input('filename: ')+str('.txt')
     completePath = filePath+fileName
 
     os.path.isfile(fileName) 
@@ -23,8 +24,9 @@ def friends_0():
         print(data)
 
 def family_0():
-    filePath = '/Users/Corey/Documents/GitHub/bellevue-python/'
-    fileName = 'family.txt'
+    filePath = '/Users/Corey/Documents/GitHub/bellevue-python/family/'
+    print('Please create filename')
+    fileName = input('filename: ')+str('.txt')
     completePath = filePath+fileName
 
     os.path.isfile(fileName) 
@@ -44,8 +46,9 @@ def family_0():
         print(data)
 
 def work_0():
-    filePath = '/Users/Corey/Documents/GitHub/bellevue-python/'
-    fileName = 'work.txt'
+    filePath = '/Users/Corey/Documents/GitHub/bellevue-python/work/'
+    print('Please create filename')
+    fileName = input('filename: ')+str('.txt')
     completePath = filePath+fileName
 
     os.path.isfile(fileName) 

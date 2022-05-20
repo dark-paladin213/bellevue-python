@@ -1,6 +1,0 @@
-Name:yes
-Phone number:no
-Adress:maybeName:corey, Phone number:333, Adress:yes
-Name:yes, Phone number:no, Adress:maybe
-Name:ddd, Phone number:kkk, Adress:ddd
-Name:aaa, Phone number:sss, Adress:ddd
